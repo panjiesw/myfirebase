@@ -1,0 +1,37 @@
+{
+  "name": "myfirebase",
+  "version": "0.1.0",
+  "description": "Alternative firebase admin console using Node.JS Firebase Admin SDK",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/panjiesw/myfirebase#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panjiesw/myfirebase.git"
+  },
+  "author": {
+    "name": "Panjie Setiawan Wicaksono",
+    "email": "panjie@panjiesw.com"
+  },
+  "bugs": {
+    "url": "https://github.com/panjiesw/myfirebase/issues",
+    "email": "panjie@panjiesw.com"
+  },
+  "keywords": [
+    "firebase",
+    "firebase-admin",
+    "console",
+    "admin",
+    "management",
+    "react"
+  ],
+  "scripts": {
+    "test": "tap"
+  },
+  "devDependencies": {
+    "tslint": "^5.1.0",
+    "tslint-react": "^2.6.0",
+    "typescript": "^2.2.2"
+  }
+}

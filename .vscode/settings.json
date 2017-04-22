@@ -1,0 +1,33 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"tslint.enable": true,
+	"tslint.ignoreDefinitionFiles": true,
+	"tslint.jsEnable": true,
+	"tslint.exclude": [
+		"**/build/**",
+		"**/node_modules/**"
+	],
+	"editor.insertSpaces": true,
+	"editor.renderWhitespace": "boundary",
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 120,
+	"editor.rulers": [
+		120
+	],
+	"editor.tabSize": 2,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/.idea": true,
+		"**/.iml": true
+	},
+	"eslint.enable": false,
+	"xo.enable": false,
+	"css.validate": false,
+	"stylelint.enable": false,
+	"licenser.license": "MIT",
+	"licenser.projectName": "myfirebase"
+}
