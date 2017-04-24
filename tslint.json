@@ -22,6 +22,7 @@
 			false
 		],
 		"object-literal-sort-keys": false,
+		"no-shadowed-variable": false,
 		"jsx-no-multiline-js": [
 			false
 		],

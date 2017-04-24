@@ -27,11 +27,34 @@
     "react"
   ],
   "scripts": {
-    "test": "tap"
+    "build:server": "npm run clean && tsc -p server",
+    "clean": "del build",
+    "start:server": "ts-node -r tsconfig-paths/register server/index.ts",
+    "test:server": "tap --node-arg=-r --node-arg=tsconfig-paths/register ./server/**/__tests__/*.spec.ts",
+    "watch:server": "tsc -p server --watch"
   },
   "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/dotenv": "^2.0.20",
+    "@types/express": "^4.0.35",
+    "@types/http-status-codes": "^1.0.29",
+    "del-cli": "^0.2.1",
+    "tap": "^10.3.2",
+    "ts-node": "^3.0.2",
     "tslint": "^5.1.0",
     "tslint-react": "^2.6.0",
-    "typescript": "^2.2.2"
+    "typescript": "^2.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "dotenv-expand": "^4.0.1",
+    "firebase-admin": "^4.2.1",
+    "http-status-codes": "^1.1.6",
+    "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1",
+    "nest.js": "^1.0.0-rc8",
+    "tsconfig-paths": "^2.1.2",
+    "tslib": "^1.6.1"
   }
 }

@@ -29,5 +29,6 @@
 	"css.validate": false,
 	"stylelint.enable": false,
 	"licenser.license": "MIT",
-	"licenser.projectName": "myfirebase"
+	"licenser.projectName": "myfirebase",
+	"licenser.useSingleLineStyle": false
 }

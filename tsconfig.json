@@ -7,13 +7,32 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "importHelpers": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedParameters": true,
+    "noUnusedLocals": true,
     "removeComments": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "outDir": "build",
+    "paths": {
+      "*": [
+        "*"
+      ],
+      "nedb-promise": [
+        "typings/nedb-promise.d.ts"
+      ],
+      "tap": [
+        "typings/tap.d.ts"
+      ],
+      "dotenv-expand": [
+        "typings/dotenv-expand.d.ts"
+      ]
+    }
   },
   "exclude": [
     "node_modules"
